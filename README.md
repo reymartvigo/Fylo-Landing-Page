@@ -10,7 +10,7 @@ Users should be able to:
 
 ![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/111113305/192664430-ee9d9d4b-f8f6-4279-be87-dcf6cda52c85.png)
 
-Live Site URL:
+Live Site URL: https://imaginative-hotteok-f76b95.netlify.app/
 
 Built with
 
@@ -23,4 +23,4 @@ Built with
 
 Account 
 
-- Frontend Mentor - https://www.frontendmentor.io/profile/reymartvigo/
+- Frontend Mentor -[@reymartvigo] https://www.frontendmentor.io/profile/reymartvigo/
