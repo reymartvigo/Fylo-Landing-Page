@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+/*  START OF HEADER */
+header {
+  color: hsl(243, 87%, 12%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  padding: 3rem 4rem;
+}
+header div {
+  width: auto;
+}
+header div img {
+  width: 8rem;
+}
+header ul {
+  display: flex;
+  gap: 2rem;
+}
+header ul li {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  cursor: pointer;
+  list-style: none;
+}
+
+/*  END OF HEADER */
+
+/*  StART FIRST OF SECTION */
+section {
+  width: 100%;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+article {
+  margin-bottom: 2rem;
+  width: 40rem;
+}
+article h1 {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243, 87%, 12%);
+  letter-spacing: 0.5px;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+article p {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: hsl(243, 87%, 12%);
+  font-size: 1rem;
+}
+.form {
+  display: flex;
+  width: 100%;
+  gap: 1.4rem;
+}
+.form-group,
+.form-group-two {
+  display: block;
+  width: 100%;
+}
+
+form input {
+  border-radius: 5px;
+  border: 1px solid hsl(243, 87%, 12%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+}
+
+::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+form button {
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  width: 20rem;
+  height: 3.5rem;
+}
+
+figure {
+  width: 40rem;
+}
+figure img {
+  width: 100%;
+}
+
+/*  END FIRST OF SECTION */
+
+/* START OF SECOND SECTION */
+.content-two {
+  padding-top: 5rem;
+  background-repeat: no-repeat;
+  background-image: url(image/bg-curve-desktop.svg);
+  background-size: cover;
+  background-position: center;
+}
+url {
+  margin-top: -1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13rem;
+  margin-bottom: 0.5rem;
+}
+url:hover {
+  cursor: pointer;
+}
+url img {
+  width: 1.5rem;
+}
+
+url a {
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: hsl(170, 45%, 43%);
+}
+url a:hover {
+  color: hsl(171, 24%, 78%);
+}
+hr {
+  margin-left: 2px;
+  width: 13rem;
+  border: 1px solid hsl(170, 45%, 43%);
+}
+
+.testimony-container {
+  -webkit-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 1.5rem;
+  width: 30rem;
+  padding: 1.5rem 2rem;
+}
+
+#quote {
+  width: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.pic {
+  display: flex;
+  gap: 1rem;
+}
+.pic img {
+  width: 3rem;
+  clip-path: circle(50%);
+}
+.name h3 {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+}
+
+/* END OF SECOND SECTION */
+.content-three {
+  padding: 4rem;
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  gap: 7rem;
+}
+.content-three aside {
+  padding-right: 6rem;
+}
+.content-three aside h2 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.content-three aside p {
+  letter-spacing: 0.5px;
+  color: hsl(240, 75%, 98%);
+  line-height: 2rem;
+}
+
+.form2 {
+  width: 50rem;
+}
+.form2 div {
+  width: 100%;
+}
+
+.form2 input {
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.form2 button {
+  border: 1px solid hsl(238, 22%, 44%);
+  height: 3rem;
+  margin-top: 0.5rem;
+  width: 15rem;
+  padding: 0.8rem;
+}
+
+/* START OF FOOTER */
+
+footer {
+  background: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 5rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 13.5rem;
+}
+
+.contact-content {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+#foot-logo {
+  width: 10rem;
+}
+
+.about,
+.contact-link {
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(238, 22%, 44%);
+}
+
+.social-links img {
+  margin-left: 1rem;
+  cursor: pointer;
+  width: 2rem;
+}
+
+/* END OF FOOTER */
+
+/* FORM VALIDATION*/
+
+.error {
+  border: 2px solid hsl(0, 88%, 66%);
+}
+
+.error-text {
+  font-weight: bold;
+  margin-left: 0.5em;
+  font-size: 14px;
+  color: hsl(0, 94%, 49%);
+}
+
+.success {
+  border: 2px solid hsl(118, 42%, 65%);
+}
+
+.form2 span {
+  color: white;
+}
+
+@media screen and (min-width: 290px) and (max-width: 1024px) {
+  header {
+    gap: 1rem;
+    padding: 3rem 1rem;
+  }
+  header div {
+    width: auto;
+  }
+  header div img {
+    width: 7rem;
+  }
+  header ul {
+    gap: 1rem;
+  }
+  .content-one,
+  .content-three {
+    padding: 2rem 1rem;
+    flex-direction: column-reverse;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-one div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  article,
+  form input,
+  form button,
+  .content-two {
+    width: 100%;
+  }
+  article h1 {
+    font-size: 2rem;
+  }
+  figure {
+    width: auto;
+  }
+
+  .content-two {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .content-two h1 {
+    text-align: center;
+  }
+  hr {
+    margin: 0 auto;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  url {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #quote {
+    margin-bottom: 0.5rem;
+  }
+  .testimony-container {
+    width: auto;
+    padding: 1.5rem 2rem;
+  }
+  .content p {
+    line-height: 1.3rem;
+    font-size: 13px;
+  }
+
+  .content-three {
+    flex-direction: column;
+    width: auto;
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .content-three aside {
+    padding-right: 1rem;
+  }
+  .content-three aside h2 {
+    font-size: 25px;
+  }
+
+  .content-three aside p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+
+  .form2 {
+    width: 100%;
+  }
+  .form2 div {
+    width: 100%;
+  }
+
+  .form2 input,
+  .form2 button {
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  footer {
+    background: hsl(243, 87%, 12%);
+    color: #fff;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: unset;
+    gap: 3em;
+    line-height: 5rem;
+  }
+
+  .contact-content {
+    margin-top: 0.1rem;
+    line-height: 2rem;
+  }
+  #foot-logo {
+    width: 10rem;
+  }
+
+  .about,
+  .contact-link {
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-links {
+    margin: 0 auto;
+  }
+}
